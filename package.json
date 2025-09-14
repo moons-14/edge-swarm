@@ -11,6 +11,7 @@
     "hono": "^4.9.7"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250913.0",
     "@types/bencode": "^2.0.4",
     "@types/magnet-uri": "^5.1.5",
     "@types/parse-torrent": "^5.8.7",
