@@ -2,10 +2,10 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "edge-swarm",
   "main": "src/index.ts",
-  "compatibility_date": "2025-09-12"
-  // "compatibility_flags": [
-  //   "nodejs_compat"
-  // ],
+  "compatibility_date": "2025-09-12",
+  "compatibility_flags": [
+    "nodejs_compat_v2"
+  ],
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },
