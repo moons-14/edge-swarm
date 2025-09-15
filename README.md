@@ -1,16 +1,23 @@
+# Edge Swarm
+A lightweight torrent client that runs entirely on Cloudflare.<br>
+This project is research and development and does not guarantee operational stability or accuracy.
+
+## How to use
 ```txt
-npm install
-npm run dev
+pnpm i
+pnpm run dev
 ```
 
+### Deploy to Cloudflare Workers
 ```txt
-npm run deploy
+pnpm run deploy
 ```
 
+### Cloudflare Workers Types with Hono
 [For generating/synchronizing types based on your Worker configuration run](https://developers.cloudflare.com/workers/wrangler/commands/#types):
 
 ```txt
-npm run cf-typegen
+pnpm run cf-typegen
 ```
 
 Pass the `CloudflareBindings` as generics when instantiation `Hono`:
